@@ -37,6 +37,8 @@ opencv-python==4.6.0.66
 pandas==1.1.3
 scikit-learn==1.0.1
 scipy==1.9.3
+geopandas==0.12.1
+captum==0.5.0
 ```
 
 
@@ -51,6 +53,6 @@ Download the data set and add it to the current folder to run the following scri
 ```
 skipt_train.py: To start the training
 eval.py: to evaluat the trained model eithet on the whole data set or on individual cities.
-evaluate_ghs_ours_eu.py: compute the metrics on ghs-pop and ours prediction on eu cities.
+evaluate_ghs_ours_eu.py: compute the evaluation metrics on eu cities with ghs-pop and our's predictions.
 evaluate_ghs_ours_us.py: compute the metrics on ghs-pop and ours prediction on us cities.
 ```
