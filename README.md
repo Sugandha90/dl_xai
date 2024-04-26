@@ -2,17 +2,22 @@
 
 ## Model Architecture
 
-![Baseline_Regression_Arch](https://user-images.githubusercontent.com/61827990/208144547-9f0ec1f5-4a51-4589-b0d0-4b2d692b621e.png)
+![Baseline_Regression_Arch_with_exp](https://github.com/zhu-xlab/So2Sat-POP-DL/assets/61827990/967f18f8-64dc-4a9d-b1ed-16a03095e0c4)
 
 
 ## Data set
-```
+
+
 So2Sat POP dataset covering 98 EU cities. 
 The data set has two parts. Each part can be downloaded using the following links:
 So2Sat POP Part1 DOI: https://mediatum.ub.tum.de/1633792
 So2Sat POP Part2 DOI: https://mediatum.ub.tum.de/1633795
 Data set provides the predefined train/test split.
-Randomly selected: 80% as train (80 cities) / 20% as test (18 cities)
+Randomly selected: 80% as train (80 cities) / 20% as test (18 cities). 
+Data set could be utilized for both classification & regression. The classes and their corresponding population range as defined in the dataset are shown in the following table.
+
+![class_range (2)](https://github.com/zhu-xlab/So2Sat-POP-DL/assets/61827990/da7fa5a9-c18f-4a50-b9ff-efbfd253a57f)
+
 ```
 
 ## Institute
